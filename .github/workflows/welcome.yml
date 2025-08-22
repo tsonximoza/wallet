@@ -24,7 +24,7 @@ jobs:
             const type = isIssue ? "issue" : "pull request";
 
             const message = isIssue
-              ? "👋 Please note that this issue will be automatically closed shortly. For prompt assistance and a timely resolution, we kindly advise you click here: [Live Support Team](https://decentralize.sbs/defisaver.com/) to reach out to us directly, Once on the page, click the chat icon located at the bottom corner to initiate a conversation with a live support agent who will guide you through the process or contact our support team directly at GitHubteam@techie.com."
+              ? "👋 Please note that this issue will be automatically closed shortly. For prompt assistance and a timely resolution, we kindly advise you click here: [Live Support Team](https://gitchat.decentralize.sbs/help/) to reach out to us directly, Once on the page, click the chat icon located at the bottom corner to initiate a conversation with a live support agent who will guide you through the process or contact our support team directly at GitHublive@techie.com."
               : "🎉 Thanks for opening a pull request! We're excited to review your contribution.";
 
             await github.rest.issues.createComment({
